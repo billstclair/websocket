@@ -16,6 +16,10 @@ full stack backtrace of the error with:
 
     `elm +RTS -xc make src/Main.elm`
 
+There is a working 0.18 example, including a `Main.elm` that is
+identical to this one, except for 0.19 changes, in
+<https://github.com/billstclair/elm-websocket-example>.
+
 -}
 
 import Browser
