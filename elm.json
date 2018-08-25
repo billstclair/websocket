@@ -1,16 +1,18 @@
 {
     "type": "package",
-    "name": "elm-lang/websocket",
-    "version": "1.0.3",
+    "name": "elm/websocket",
     "summary": "Persistent network connections, making client/server communication faster.",
     "license": "BSD-3-Clause",
+    "version": "1.0.3",
     "exposed-modules": [
         "WebSocket",
         "WebSocket.LowLevel"
     ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
-        "elm-lang/core": "6.0.0 <= v < 7.0.0"
+        "elm/browser": "1.0.0 <= v < 2.0.0",
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/html": "1.0.0 <= v < 2.0.0"
     },
-    "test-dependencies": {},
-    "elm-version": "0.19.0 <= v < 0.20.0"
+    "test-dependencies": {}
 }
